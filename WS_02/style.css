@@ -26,16 +26,16 @@ p {
             font-weight: bold;
         }
 h1 {
-            color: rgb(15, 15, 15);
+            color: rgb(22, 22, 22);
         }
         h2 {
-            color: rgb(247, 210, 236);
+            color: rgb(22, 22, 22);
         }
         
 .content-box {
     padding: 20px;
     margin: 30px;
-    background-color: lightblue;
+    background-color: rgb(253, 232, 232);
 }
 table {
       width: 100%;
