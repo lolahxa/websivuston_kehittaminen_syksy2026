@@ -1,16 +1,16 @@
         p {
-            color: blue;
+            color: rgb(233, 53, 161);
             font-size: 15px;
             margin-bottom: 4px;
             font-weight: bold;
         }
         body {
             background-color: rgb(250, 202, 230);
-            color: #ffdfdf;
+            color: #fde9e9;
             font-family: Arial, sans-serif;
         }
         li {
-            color: rgb(255, 166, 228);
+            color: rgb(48, 6, 35);
             font-size: 15px;
             margin-bottom: 4px;
             font-weight: bold;
