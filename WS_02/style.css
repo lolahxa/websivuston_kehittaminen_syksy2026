@@ -1,6 +1,6 @@
         body {
-            background-color: rgb(0, 0, 0);
-            color: rgb(255, 255, 255);
+            background-color: rgb(250, 202, 230);
+            color: #0f0f0f;
             font-family: Arial, sans-serif;
         }
         li {
@@ -10,8 +10,14 @@
             font-weight: bold;
         }
         td {
-            color: rgb(138, 167, 245);
+            color: rgb(8, 8, 8);
             font-size: 15px;
             margin-bottom: 4px;
             font-weight: bold;
+        }
+h1 {
+            color: rgb(15, 15, 15);
+        }
+        h2 {
+            color: rgb(247, 210, 236);
         }
