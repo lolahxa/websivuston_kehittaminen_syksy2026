@@ -1,4 +1,8 @@
-        p {
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+p {
             color: rgb(233, 53, 161);
             font-size: 15px;
             margin-bottom: 4px;
@@ -6,7 +10,7 @@
         }
         body {
             background-color: rgb(250, 202, 230);
-            color: #fde9e9;
+            color: #489148;
             font-family: Arial, sans-serif;
         }
         li {
@@ -27,7 +31,3 @@ h1 {
         h2 {
             color: rgb(247, 210, 236);
         }
-th, td {
-  padding: 10px;
-  text-align: left;
-}
