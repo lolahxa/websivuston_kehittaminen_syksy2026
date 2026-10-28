@@ -1,0 +1,158 @@
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+p {
+            color: rgb(134, 119, 53);
+            font-size: 15px;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+        body {
+            background-color: rgb(8, 8, 8);
+            color: #fef35b;
+            font-family: Arial, sans-serif;
+        }
+        li {
+            color: rgb(48, 6, 35);
+            font-size: 15px;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+        td {
+            color:rgb(255, 208, 0);
+            font-size: 15px;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+h1 {
+            color: rgb(246, 244, 244);
+        }
+        h2 {
+            color: rgb(241, 239, 239);
+        }
+        
+.content-box {
+    padding: 20px;
+    margin: 30px;
+    background-color: rgb(255, 208, 0);
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color:rgb(127, 113, 48);
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #316533;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+transition-button {
+        background-color: lightblue;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: rgb(255, 246, 72);
+      }
+      .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: rgb(255, 228, 92);
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+.pseudo-list li:nth-child(odd) {
+        background-color: rgb(199, 193, 84);
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: rgb(255, 244, 86);
+      }
+      .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+.quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+   .quote::after {
+        content: '”';
+        font-size: 40px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: lightgray;
+      }
