@@ -109,7 +109,7 @@ transition-button {
         }
       }
 .pseudo-list li:nth-child(odd) {
-        background-color: rgb(199, 193, 84);
+        background-color: rgb(244, 197, 56);
       }
       
       .pseudo-list li:nth-child(even) {
