@@ -156,7 +156,8 @@ transition-button {
         bottom: 0;
         color: lightgray;
       }
-      nav {
+
+  nav {
     display: flex;
     justify-content: center;
     gap: 2.5rem;
@@ -170,8 +171,19 @@ transition-button {
     flex-direction: column;
 }
 
+nav a {
+    text-decoration: none;
+    color: #b09582 ;
+    margin-right: 10px;
+}
+
 .nav-toggle {
   display: none;
+}
+
+.nav-toggle:checked ~ .nav-links {
+    display: flex;
+    flex-direction: column;
 }
 
 .nav-toggle-label::after {
@@ -180,12 +192,42 @@ transition-button {
   cursor: pointer;
 }
 
-nav a {
-    text-decoration: none;
-    color: #b09582 ;
-    margin-right: 10px;
-}
+.responsive-nav .nav-list {
+      display: flex;
+      list-style: none;
+    }
+    
+    @media (max-width: 600px) {
+      .responsive-nav .nav-list {
+        display: none;
+      }
+    
+      .responsive-nav .menu-toggle {
+        display: block;
+      }
+    }
 
+.responsive-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .column {
+      flex: 1;
+      padding: 10px;
+    }
+    
+    @media (max-width: 600px) {
+      .column {
+        flex: 100%;
+      }
+    }
+
+    .responsive-image {
+      max-width: 100%;
+      height: auto;
+    }
+  
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -226,3 +268,20 @@ nav a {
     background-color: rgb(240, 172, 115);
   }
 }
+
+.media-query-box {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    @media (max-width: 600px) {
+      .media-query-box {
+        background-color: lightcoral;
+      }
+    }
+    
+    @media (min-width: 601px) {
+      .media-query-box {
+        background-color: lightblue;
+      }
+    }
