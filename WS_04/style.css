@@ -3,39 +3,39 @@ th, td {
   text-align: left;
 }
 p {
-            color: rgb(255, 204, 254);
+            color: #84583a;
             font-size: 15px;
             margin-bottom: 4px;
             font-weight: bold;
         }
         body {
-            background-color: #c18c5d
-            color: rgb(253, 201, 252);
+            background-color: rgb(233, 183, 139);
+            color: rgb(197, 144, 98);
             font-family: Arial, sans-serif;
         }
         li {
-            color: rgb(255, 204, 254);
+            color: rgba(86, 59, 47, 0.605);;
             font-size: 15px;
             margin-bottom: 4px;
             font-weight: bold;
         }
         td {
-            color:rgb(255, 204, 254);
+            color: #495867; 
             font-size: 15px;
             margin-bottom: 4px;
             font-weight: bold;
         }
 h1 {
-            color: #c15d5d
+            color: #704e25;
         }
         h2 {
-            color: #c18c5d
+            color: #0f1c34b3;
         }
         
 .content-box {
     padding: 20px;
     margin: 30px;
-    background-color: rgb(255, 204, 254);
+    background-color: #ecc8af;
 }
 table {
       width: 100%;
@@ -43,13 +43,13 @@ table {
     }
     
     th, td {
-      border: 1px solid #ddd;
+      border: 3px solid #ecc8af;
       padding: 8px;
       text-align: left;
     }
     
     th {
-      background-color:#fcded3
+      background-color:#ecc8af;
     }
     
     form {
@@ -109,11 +109,11 @@ transition-button {
         }
       }
 .pseudo-list li:nth-child(odd) {
-        background-color: rgb(210, 245, 245);
+        background-color: #ecc8af;
       }
       
       .pseudo-list li:nth-child(even) {
-        background-color: rgb(91, 115, 115);
+        background-color: #b09582 ;
       }
       .filter-image {
         filter: grayscale(100%);
@@ -161,7 +161,7 @@ transition-button {
     justify-content: center;
     gap: 2.5rem;
     align-items: center;
-    background-color: rgb(91, 115, 115);
+    background-color: #461f0374 ;
     padding: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -173,7 +173,7 @@ transition-button {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #b09582 ;
     margin-right: 10px;
 }
 
@@ -196,7 +196,7 @@ nav a {
 }
 
 .box {
-  background-color: lightblue;
+  background-color: #ecc8af ;
   padding: 20px;
   text-align: center;
 }
@@ -214,6 +214,6 @@ nav a {
 
 @media (min-width: 601px) {
   .responsive-box {
-    background-color: lightseagreen;
+    background-color: rgb(240, 172, 115);
   }
 }
