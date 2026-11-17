@@ -1,0 +1,219 @@
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+p {
+            color: #84583a;
+            font-size: 15px;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+        body {
+            background-color: rgb(233, 183, 139);
+            color: rgb(197, 144, 98);
+            font-family: Arial, sans-serif;
+        }
+        li {
+            color: rgba(86, 59, 47, 0.605);;
+            font-size: 15px;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+        td {
+            color: #495867; 
+            font-size: 15px;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+h1 {
+            color: #704e25;
+        }
+        h2 {
+            color: #0f1c34b3;
+        }
+        
+.content-box {
+    padding: 20px;
+    margin: 30px;
+    background-color: #ecc8af;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      border: 3px solid #ecc8af;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color:#ecc8af;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    label {
+      font-weight: bold;
+    }
+    
+    input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #316533;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+transition-button {
+        background-color: lightblue;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: rgb(83, 241, 25);
+      }
+      .animation-box {
+        width: 50px;
+        height: 50px;
+        background-color: lightblue;
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 0;
+        }
+        to {
+          left: 100px;
+        }
+      }
+.pseudo-list li:nth-child(odd) {
+        background-color: #ecc8af;
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        background-color: #b09582 ;
+      }
+      .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+.quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+   .quote::after {
+        content: '”';
+        font-size: 40px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: lightgray;
+      }
+      nav {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    align-items: center;
+    background-color: #461f0374 ;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    flex-direction: column;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #b09582 ;
+    margin-right: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: lightgreen;
+  padding: 20px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background-color: #ecc8af ;
+  padding: 20px;
+  text-align: center;
+}
+
+.responsive-box {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .responsive-box {
+    background-color: lightcoral;
+  }
+}
+
+@media (min-width: 601px) {
+  .responsive-box {
+    background-color: rgb(240, 172, 115);
+  }
+}
