@@ -168,7 +168,16 @@ transition-button {
     border-radius: 5px;
     margin-bottom: 20px;
     flex-direction: column;
+}
 
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label::after {
+  content: '☰';
+  font-size: 24px;
+  cursor: pointer;
 }
 
 nav a {
